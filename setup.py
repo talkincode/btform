@@ -10,7 +10,7 @@ setup(name='btform',
       url='https://github.com/talkincode/btform',
       license='MIT',
       description='web app forms tools',
-      long_description=open('README.md').read(),
+      long_description=open('./README.md').read(),
       classifiers=[
           'Development Status :: 6 - Mature',
           'Intended Audience :: Developers',
