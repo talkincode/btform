@@ -1,9 +1,6 @@
 bdist:
 	python setup.py bdist
 
-rpm:
-	python setup.py bdist_rpm
-
 wheel:
 	python setup.py bdist_wheel
 
@@ -15,4 +12,4 @@ clean:
 	@find . -type f -name "*.py[co]" -delete
 	@find . -type d -name "__pycache__" -delete
 
-.PHONY: clean bdist rpm wheel upload
+.PHONY: clean bdist wheel upload
